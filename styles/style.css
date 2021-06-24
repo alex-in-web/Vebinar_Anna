@@ -1,3 +1,127 @@
 body {
-    background-color: aqua;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 105px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    
+
+}
+.nav-item {
+    margin-left: 34px;
+}
+.nav-item--register {
+    margin-left: 18px;
+}
+.nav-item--login {
+    margin-left: 18px;
+
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B8BECD;
+    transition: 0.2s ease color;
+}
+
+.nav-link:hover {
+    color: #202336;
+}
+.nav-link--login {
+    color: #FB8F1D;
+    font-weight: 500;
+    border: 1px solid #FB8F1D;
+    padding: 15px 46px;
+    border-radius: 8px;
+}
+
+.nav-link--register {
+    background-color: #FB8F1D;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #FB8F1D;
+    padding: 15px 36px;
+    border-radius: 8px;
+}
+
+.wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.title-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #202336;
+    margin-top: 0;
+}
+.title-h3 {
+    font-weight: 600;
+    color: #202336;
+    font-size: 22px;
+    
+}
+.title-h3::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 32px;
+    background-color: #202336;
+    margin-top: 21px;
+}
+.form {
+    display: flex;
+    max-width: 471px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-select {
+    flex: 0 0 48%;
+    border: 1px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 31px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    font-size: 15px;
+    appearance: none;
+    background-image: url(/images/Vector.svg);
+    background-size: 9.5px 6px;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    font-family: 'Inter', sans-serif;
+    color: #4A4C53;
+    font-weight: 400;
+}
+.form-btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    background-color: #FB8F1D;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #FB8F1D;
+    padding: 18px 60px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.img-main {
+    position: absolute;
+    right: -85px;
+    top: -35px;
 }
