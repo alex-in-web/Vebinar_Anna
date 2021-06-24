@@ -163,6 +163,208 @@ body {
 }
 .page-02-img {
     position: absolute;
-    left: -42px;
+    left: -94px;
     top: -110px;
+}
+.page-02 {
+    padding-bottom: 332px;
+}
+.page-03 {
+    padding-bottom: 385px;
+}
+
+.page-03-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.page-03-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.page-03-link {
+    color: #FB8F1D;
+    text-decoration: none;
+    background-image: url(/images/Vector\ 1.svg);
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    background-position: 99% 4px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+
+}
+.portfolio-item {
+    flex: 0 0 24%;
+    height: 332px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.portfolio-text h3 {
+    font-size: 17px;
+    color: #042521;
+    font-weight: 600;
+}
+.portfolio-text span {
+    display: block;
+    font-size: 15px;
+    color: #80918E;
+    font-weight: 500;
+    margin-top: 8px;
+    
+}
+.portfolio-item-01 {
+    background-image: url(/images/image\ 4.png);
+}
+.portfolio-item-02 {
+    background-image: url(/images/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.png);
+}
+.portfolio-item-03 {
+    background-image: url(/images/Screen\ Shot\ 2020-02-15\ at\ 11.04\ 1.png);
+}
+.portfolio-item-04 {
+    background-image: url(/images/Screen\ Shot\ 2020-02-15\ at\ 11.10\ 1.png);
+}
+.portfolio-text {
+    background-color: #fff;
+    display: inline-block;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 6px 0 0;
+}
+.page-04 .wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.box-2 {
+    max-width: 480px;
+}
+.box-title-2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.box-description-2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #7D7987;
+    margin-bottom: 50px;
+}
+.box-link-2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    background-color: #FB8F1D;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #FB8F1D;
+    padding: 18px 38px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.page-04-img {
+    position: absolute;
+    right: 0;
+    top: -152px;
+}
+.page-04 {
+    padding-bottom: 316px;
+}
+.footer-01, .footer-02 {
+    background-color: #F9F9FB;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 78px;
+    display: flex;
+    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 105px;*/
+}
+.col-01,.col-02, .col-03, .col-04 {
+    max-width: 390px;
+    float: left;
+
+}
+
+.list-foo {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+
+
+.footer-text {
+    color: #848484;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-family: 'Mulish', sans-serif;
+}
+a.footer-text {
+    text-decoration: none;
+    transition: 0.2s ease color;
+}
+a.footer-text:hover {
+    color: #202336;
+}
+
+.title-h4 {
+    color: #000;
+    font-size: 19px;
+    line-height: 3em;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.copy {
+    padding-top: 12px;
+}
+/*.media {
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto 32px;
+    padding-top: 0;
+}*/
+.footer-02 {
+    padding-top: 0;
+}
+
+hr {
+    border: none; 
+    background-color: #C4C4C4; 
+    color: #C4C4C4; 
+    height: 2px;
+    width: 1120px; 
+    margin: 81px auto 30px;
+   }
+.media {
+    display: flex;
+    margin-left: 455px;
+    margin-bottom: 32px;
+}
+.media li {
+    list-style: none;
+    padding-right: 30px;
 }
